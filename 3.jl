@@ -22,7 +22,7 @@ function IsPrime(n)
 end
 
 # Generate Prime numbers
-filter(IsPrime, 1:100)
+# filter(IsPrime, 1:100)
 
 function A(n)
   p = 2
@@ -41,4 +41,4 @@ function A(n)
   return fac
 end
 
-
+print(maximum(A(600851475143)))
